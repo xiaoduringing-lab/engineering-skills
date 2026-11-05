@@ -1,0 +1,13 @@
+interface:
+  display_name: 可焊接电路工程制图
+  short_description: 绘制正反面洞洞板布局、分组走线图与连接表，结合真实铜箔网络验证
+  default_prompt: 使用 $draw-solderable-layouts，根据提供的电路和板子资料生成清晰、可核查的正反面焊接图。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
